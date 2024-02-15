@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(abstract-smoke-wallpaper-background-desktop.jpg);
+    background-size: cover;
+}
+
+input, button {
+    margin-bottom: 10px;
+    border: 1px solid rgb(208, 150, 205);
+    
+}
+
+button:hover{
+    background-color: rgb(161, 112, 112);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid rgb(208, 150, 205);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

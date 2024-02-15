@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>User Form</h2>
+
+    <!-- Form to add items to the order list -->
+    <form id="orderForm">
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" required>
+
+
+
+        <input type="submit" id="submit">
+    </form>
+
+    <!-- Order list -->
+    <h3>Item List</h3>
+    <table id="orderTable">
+        <thead>
+            <tr>
+                <th>Item Name</th>
+
+                <th>Modify</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Order items will be dynamically added here -->
+        </tbody>
+    </table>
+    <script src="main.js"></script>
+</body>
+
+</html>
